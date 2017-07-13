@@ -47,8 +47,8 @@ static const uint8_t TWISDA0  = 15;  /* P3.0 UCB0 */
 static const uint8_t TWISCL0  = 14;  /* P3.1 UCB0 */
 static const uint8_t DEBUG_UARTRXD = 45;  /* Receive  Data (RXD) at P4.5 */
 static const uint8_t DEBUG_UARTTXD = 46;  /* Transmit Data (TXD) at P4.4 */
-static const uint8_t AUX_UARTRXD = 3;  /* Receive  Data (RXD) at P4.5 */
-static const uint8_t AUX_UARTTXD = 4;  /* Transmit Data (TXD) at P4.4 */
+static const uint8_t AUX_UARTRXD = 3;  /* Receive  Data (RXD) at P3.4 */
+static const uint8_t AUX_UARTTXD = 4;  /* Transmit Data (TXD) at P3.3 */
 #define TWISDA0_SET_MODE (PORT_SELECTION0)
 #define TWISCL0_SET_MODE (PORT_SELECTION0)
 #define TWISDA1_SET_MODE (PORT_SELECTION0 | (PM_UCB1SDA << 8)) 
